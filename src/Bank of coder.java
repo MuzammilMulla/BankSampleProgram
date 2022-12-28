@@ -1,10 +1,10 @@
 import java.util.Scanner;
 class CreateAccount {
-    public String accountHolder;
-    public int accountNumber;
-    public double accountBalance;
-    public int phoneNumber;
-    public String bankAddress;
+    private String accountHolder;
+    private int accountNumber;
+    private double accountBalance;
+    private int phoneNumber;
+    private String bankAddress;
 
 
     Scanner sc = new Scanner(System.in);
